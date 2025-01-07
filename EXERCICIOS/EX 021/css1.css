@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+a{
+    width:300px;
+    height:300px;
+
+    border: 15px solid blue;
+
+    padding: 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline:7px dashed red;
+}
+h1{
+    background-color: rgb(235, 190, 12);
+    color: darkblue;
+    width:600px;
+    height:350px; 
+
+    border-width: 15px 10px 12px 18px;
+    border-style: solid;
+    border-color: red;
+
+   padding: 10px;
+
+   margin: 15px auto 15px auto;
+
+   outline: 17px dashed red
+
+  
+  
+
+   
+    
+
+
+}
+
+

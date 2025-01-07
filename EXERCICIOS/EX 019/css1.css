@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+
+
+
+body{
+
+font:16px Arial, Helvetica, serif;
+
+}
+h1#main {
+    font:16px Arial, sans-serif;
+    color: aquamarine;
+    background-color: blue;
+    
+}
+h1{
+    font:italic 64px;
+    color: black;
+    background-color: aquamarine;
+}
+.p{
+
+    color: rgb(45,78,255);
+}
+
+
+.kill {
+    color: blueviolet;
+    font: justify 40px Arial serif;
+}
+
+.high{
+    color: rgb(120,19,34);
+}
+
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO 007</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/7915/7915382.png">
+</head>
+<body>
+    <h1>Desafio da imagem flexível</h1>
+    <p>Devemos usar a tag picture, dentro dela a img e depois source para as demais</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source  media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem flexível">
+    </picture>
+    
+</body>
+</html>

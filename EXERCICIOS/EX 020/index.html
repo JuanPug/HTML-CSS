@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo-class</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="icon" href="link">
+    <style>
+div:hover {
+    color: blue;
+    font: justify bolder 88px Arial sans-serif;
+}
+div > p{
+    display: none;  
+    color: blueviolet;
+    font:400 serif;
+}
+div:hover > p {
+    display:block
+}
+
+
+    </style>
+</head>
+<body>
+    <h1>Testando pseudo-classes</h1>
+    <div> Abaixo contém um segredo
+        <p>podemos usar tags dentro da div</p>
+    </div>
+    
+</body>
+</html>
