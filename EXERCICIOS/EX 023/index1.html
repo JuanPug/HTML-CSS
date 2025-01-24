@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table two</title>
+    <style>
+
+        table{
+            height:650px;
+            width:1000px;
+            border-collapse:collapse;
+        }
+        
+        caption{
+            font-size:2em;
+            font-weight:bold;
+            padding:12px;
+            background-color: gray;
+        }
+
+        thead, tbody, tfoot > tr, th, td {
+            border: 1px solid black;
+            padding:10px;
+           
+        }
+           
+        .posição{
+            text-align: center;
+            width: 300px;
+            color: brown;
+            background-color: cornflowerblue;
+        }
+
+        .pop {
+            text-align: right;
+            vertical-align: bottom;
+            color:rgb(89, 218, 121);
+            background-color:rgb(54, 109, 109);
+        }
+
+        .garoa {
+
+            color: white;
+            background-color: rgb(41, 39, 39);
+        }
+
+        tfoot{
+            color: green;
+            background-color: gold;
+        }
+
+    </style>
+
+
+
+
+
+
+
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>
+            População de Cada Região do País
+        </caption>
+        <thead>
+            <th>Posição</th>
+            <th>Região</th>
+            <th>População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td class="posição">1</td>
+                <td class="garoa">Região Sudeste</td>
+                <td class="pop">88.617.693</td>
+            </tr>
+            <tr>
+                <td class="posição">2</td>
+                <td>Região Nordeste</td>
+                <td class="pop">57.112.096</td>
+            </tr>
+            <tr>
+                <td class="posição">3</td>
+                <td class="garoa">Região Sul</td>
+                <td class="pop">31.113.021</td>
+            </tr>
+            <tr>
+                <td class="posição">4</td>
+                <td>Região Norte</td>
+                <td class="pop">18.669.345	</td>
+            </tr>
+            <tr>
+                <td class="posição">5</td>
+                <td>Região Centro-Oeste</td>
+                <td class="pop">17.071.595</td>
+            </tr>
+        </tbody>
+        <tfoot>
+                <th>População Total Estimada</th>
+                <td></td>
+                <td><strong>212 583 720</strong></td>
+        </tfoot>
+
+
+
+
+
+
+    </table>
+    
+</body>
+</html>
