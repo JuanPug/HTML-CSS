@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        table{
+            width:1000px;
+            height:700px;
+            border-collapse:collapse;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        caption{ 
+            font-weight: bolder;
+            font-size: 1.8em;
+            
+        }
+        
+        th{
+            font-weight:bolder;
+        }
+
+
+
+
+        th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+
+        .pug{
+            background-color: cadetblue;
+        }
+
+        #understand{
+            background-color: aqua;
+        }
+
+        #world{
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col class="pug">
+            <col id="world">
+            <col class="pug">
+            <col id="understand">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <thead>
+            <th scope="col">NOME</th>
+            <th scope="col">SEXO</th>
+            <th scope="col">IDADE</th>
+            <th scope="col">PROFISSÃO</th>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td>Ana</td>
+                <td>F</td>
+                <td>28</td>
+                <td>Atendente</td>
+            </tr>
+
+            <tr>
+                <td>Luiza</td>
+                <td>F</td>
+                <td>18</td>
+                <td>Advogada</td>
+            </tr>
+            <tr>
+                <td>Matheus</td>
+                <td>M</td>
+                <td>44</td>
+                <td>Mecânico</td>
+            </tr>
+            <tr>
+                <td>Luiz</td>
+                <td>M</td>
+                <td>39</td>
+                <td>Eletricista</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>67</td>
+                <td>Dentista</td>
+            </tr>
+        </tbody>
+    </table>
+    
+</body>
+</html>
